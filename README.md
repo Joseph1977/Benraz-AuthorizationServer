@@ -22,7 +22,7 @@ The Benraz Authorization Server is composed of multiple interconnected modules:
    - These provide reusable infrastructure for your backend services.
    - Repository: [benraz-infra-nugets](https://github.com/Joseph1977/benraz-infra-nugets)
 
-2. **Frontend npm Packages** (Angular 18.0):
+2. **Frontend npm Packages** (Angular 16.0):
    - **Common Utilities**: Reusable components across frontend applications.
      - Repository: [benraz-npm-common](https://github.com/Joseph1977/benraz-npm-common)
    - **Authorization Utilities**: Helper services and components for frontend authorization mechanisms.
@@ -30,7 +30,7 @@ The Benraz Authorization Server is composed of multiple interconnected modules:
    - **Manager UI**: Frontend UI components.
      - Repository: [benraz-npm-manager-ui](https://github.com/Joseph1977/benraz-npm-manager-ui)
 
-3. **SSO Frontend Application** (Angular 18.0):
+3. **SSO Frontend Application** (Angular 12.0):
    - A frontend portal that facilitates single sign-on for users across multiple applications.
    - Repository: [benraz-sso-portal](https://github.com/Joseph1977/benraz-sso-portal)
 
@@ -42,10 +42,14 @@ The Benraz Authorization Server is composed of multiple interconnected modules:
    - The core backend service that manages user authentication, role management, token issuance, and various authorization features.
    - Repository: [benraz-authorization-server](https://github.com/Joseph1977/benraz-authorization-server)
 
-6. **Authorization Frontend Application** (Angular 18.0):
+6. **Authorization Frontend Application** (Angular 12.0):
    - A frontend interface to manage users, applications, and access control mechanisms. This includes functionality for adding new applications, generate a server to server access token, managing audience settings, user roles, claims, and more.
    - Repository: [benraz-authorization-client](https://github.com/Joseph1977/benraz-authorization-client)
-
+  
+7. **Notification Service** (Angular 12.0):
+   - A service oncharge of sending notification (SMS / Email), currently supporing Twillio and SendGrid but the idea is that we can replace those 3rd party without break anything.
+   - Repository: [benraz-notification-service](https://github.com/Joseph1977/benraz-notification-service).
+     
 ## Cloning, Building, and Running the Authorization Server
 
 ### Prerequisites
