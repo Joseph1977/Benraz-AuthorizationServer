@@ -46,7 +46,7 @@ The Benraz Authorization Server is composed of multiple interconnected modules:
    - A frontend interface to manage users, applications, and access control mechanisms. This includes functionality for adding new applications, generate a server to server access token, managing audience settings, user roles, claims, and more.
    - Repository: [benraz-authorization-client](https://github.com/Joseph1977/benraz-authorization-client)
   
-7. **Notification Service** (Angular 12.0):
+7. **Notification Service** (.NET Core):
    - A service oncharge of sending notification (SMS / Email), currently supporing Twillio and SendGrid but the idea is that we can replace those 3rd party without break anything.
    - Repository: [benraz-notification-service](https://github.com/Joseph1977/benraz-notification-service).
      
